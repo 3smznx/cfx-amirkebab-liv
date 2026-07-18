@@ -27,7 +27,7 @@ This resource features a unique and detailed food truck design with custom brand
 
 ### 1. Install the livery
 
-Copy the included `.yft` file into:
+Copy the included `.yft` file into the following folder:
 
 ```text
 gb_vehicles_a_to_m/
@@ -44,7 +44,7 @@ Open:
 gb_vehicles_a_to_m/data/[gb_boxboyft]/carcols.meta
 ```
 
-Duplicate the last livery entry and change it to:
+Duplicate the last livery entry and edit it as follows:
 
 ```xml
 <modelName>gbboxboyft_livery_11</modelName>
@@ -59,43 +59,49 @@ Open:
 gb_vehicles_a_to_m/data/[gb_boxboyft]/vehicle_names.lua
 ```
 
-Add the following line:
+Add the following line before `end)`:
 
 ```lua
 AddTextEntry("BOXBOYFT_LIV11", "Amir Kebab")
 ```
 
-### 4. Restart the server
+### 4. Restart
 
-Restart the resource or your server and select **Amir Kebab** from the vehicle liveries.
+Restart the **gb_vehicles_a_to_m** resource (or your server).
+
+Your new livery will now appear in the vehicle customization menu as **Amir Kebab**.
 
 ---
 
 ## ✨ Features
 
-- Custom Amir Kebab branding
-- High-resolution livery
-- Custom menu board
-- Halal-themed design
+- High-quality custom livery
+- Unique Amir Kebab branding
+- Detailed menu graphics
+- Halal-inspired design
 - Optimized textures
-- Easy installation
+- Fully compatible with Gabz Food Truck (`gbboxboyft`)
 - FiveM ready
+- Easy installation
 
 ## 📜 Credits
 
 **Livery created by smznx.**
 
-If you use this resource on your server, **please keep the original credits**.
+This livery is designed for the **Gabz Food Truck (`gbboxboyft`)**.
+
+If you use this resource, **please keep the original credits**.
 
 Please **do not**:
+
 - Re-upload this resource claiming it as your own.
 - Remove or replace the original credits.
-- Redistribute this resource without giving proper credit.
+- Redistribute or modify this resource without giving proper credit.
 
-Giving credits is greatly appreciated and supports future releases.
+Giving proper credit is greatly appreciated and helps support future releases.
 
 ## ❤️ Support
 
 If you enjoy this resource, consider leaving a ⭐ on the repository.
 
-Thank you for your support and enjoy the livery!
+Thank you for your support, and enjoy the Amir Kebab livery!
