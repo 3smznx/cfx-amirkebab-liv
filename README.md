@@ -21,14 +21,55 @@ This resource features a unique and detailed food truck design with custom brand
 
 ## 📦 Installation
 
-1. Download this resource.
-2. Make sure you have the **Gabz Food Truck (`gbboxboyft`)** installed.
-3. Place this resource inside your `resources` folder.
-4. Add the following line to your `server.cfg`:
+> **Requirements**
+>
+> - Gabz Food Truck (`gbboxboyft`)
 
-```cfg
-ensure cfx-amirkebab-liv
+### 1. Install the livery
+
+Copy the included `.yft` file into:
+
+```text
+gb_vehicles_a_to_m/
+└── stream/
+    └── [gb_boxboyft]/
+        └── liveries/
 ```
+
+### 2. Register the livery
+
+Open:
+
+```text
+gb_vehicles_a_to_m/data/[gb_boxboyft]/carcols.meta
+```
+
+Duplicate the last livery entry and change it to:
+
+```xml
+<modelName>gbboxboyft_livery_11</modelName>
+<modShopLabel>BOXBOYFT_LIV11</modShopLabel>
+```
+
+### 3. Add the livery name
+
+Open:
+
+```text
+gb_vehicles_a_to_m/data/[gb_boxboyft]/vehicle_names.lua
+```
+
+Add the following line:
+
+```lua
+AddTextEntry("BOXBOYFT_LIV11", "Amir Kebab")
+```
+
+### 4. Restart the server
+
+Restart the resource or your server and select **Amir Kebab** from the vehicle liveries.
+
+---
 
 ## ✨ Features
 
